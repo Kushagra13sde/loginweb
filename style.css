@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('https://th.bing.com/th/id/R.ea6499ce42c87c97e25c228a406ff56f?rik=P6QBsvQiLmkgLw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fb0SthFb.jpg&ehk=T4f0xPLuZxi%2f3YiUc%2fiPTpo4nFsEUxFDzX9Az%2f7heWs%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*----- NAVEBAR----- */
+.logo{
+    color:whitesmoke;
+    font-size:3rem;
+    text-shadow: 1px 2px 3px black;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+.navbar{
+    display: flex;
+}
+.navbar ul{
+    text-decoration: none;
+    position: absolute;
+    right: 5rem;
+    display: flex;
+    margin: 18px;
+    text-align: center;
+    top: -3px;
+}
+.navbar li{
+    list-style: none;
+    
+    margin: 5px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 28px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-shadow: 1px 2px 3px black;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    color:rgb(58, 166, 185)
+}
+.btn{
+    margin: 6px;
+    border-radius: 14px;
+    width: 6rem;
+    cursor: pointer;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background-color: #35d2c4;
+    height: 2rem;
+    position: relative;
+    top: -2px;
+    border: 2px solid black;
+    background-image: linear-gradient(to right,  #5eb5dd 4%, #4255dc 100%);
+    transition: all .5s ease;
+}
+.btn:hover{
+    background-position: right center;
+    background-image: linear-gradient(to right,  #4255dc 4%, #5eb5dd 100%);
+    transition: all .5s ease;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    /* background-color: crimson; */
+}
+/* -----WEB DEVLOPMENT HEADING----- */
+.webdev{
+    width: 31rem;
+    position: absolute;
+    top: 14rem;
+    height: 9rem;
+    left: 10rem;
+    color: whitesmoke;
+}
+.course{
+    margin-bottom :8px;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 0px 1px 6px #40b5e2;
+}
+#welcome{
+    font-size: 17px;
+    text-shadow: 0px 0px 1px black;
+}
+.webdev p{
+    font-size: 17px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    line-height: 20px;
+}
+/* ----------Sign Up Box ----------- */
+.Sign-box{
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+    width: 22rem;
+    height: 25rem;
+    position: absolute;
+    right: 9rem;
+    top: 9rem;
+    background-color: #319e8f26;
+    border-radius: 13px;
+}
+.Sign-box h1{
+    margin: 5px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+input{
+    margin: 12px;
+    background: #add8e67d;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 7px;
+    width: 16rem;
+    text-align: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+#checkbox{
+   width: 18px;
+   
+}
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
